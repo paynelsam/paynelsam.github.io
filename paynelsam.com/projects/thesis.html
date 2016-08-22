@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)http://designlab.co/wrapbootstrap/zerif-html/v1.1/project.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta name="author" content="Sam Payne">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Project</title>
+
+<!-- =========================
+ FAV AND TOUCH ICONS  
+============================== -->
+<!--<link rel="shortcut icon" href="http://designlab.co/wrapbootstrap/zerif-html/v1.1/images/icons/favicon.ico">
+<link rel="apple-touch-icon" href="http://designlab.co/wrapbootstrap/zerif-html/v1.1/images/icons/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="http://designlab.co/wrapbootstrap/zerif-html/v1.1/images/icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="http://designlab.co/wrapbootstrap/zerif-html/v1.1/images/icons/apple-touch-icon-114x114.png">
+-->
+<!-- =========================
+     STYLESHEETS      
+============================== -->
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/owl.theme.css">
+<link rel="stylesheet" href="./css/owl.carousel.css">
+<link rel="stylesheet" href="./css/jquery.vegas.min.css">
+<link rel="stylesheet" href="./css/animate.min.css">
+
+<link rel="stylesheet" href="./assets/icon-fonts/styles.css"> 
+<link rel="stylesheet" href="./css/pixeden-icons.css"> 
+
+<!-- CUSTOM STYLES -->
+<link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="./css/responsive.css">
+<!-- WEBFONT -->
+<link href="./Project1_files/css" rel="stylesheet" type="text/css">
+
+<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+
+
+<style type="text/css"></style></head>
+<body cz-shortcut-listen="true" style="">
+<div class="container">
+	
+	<!-- HOMEPAGE PORTFOLIO SECTION WILL LOAD CONTENTS FROM HERE -->
+	<div class="single-project">
+		<div class="row">
+			<div class="col-lg-6 col-md-6">
+				<img src="./img/lg/thesis.jpg" alt="" class="project-image">
+			</div>
+			<div class="col-lg-6 col-md-6">
+				<h3 class="dark-text">Princeton Parallel Processor</h3>
+				<div class="project-description">
+					The Princeton Parallel Processor is a 40-core chip designed to test concepts in scalable computing. Novel architectural features include a clumpy cache coherence framework and bandwidth limiting technology. I was responsible for designing and testing the host board for this many-core chip. The host board, implemented on an ML605 Development kit using a Virtex-6 FPGA, connects computing resources and memory resources inside a computing node. This computing node is capable of communicating with other identical nodes in a larger system to share processing and memory resources. The report below describes the overall structure and goals of the project, including the design of the chip interface, inter-node interface, packet routing, memory controller, and I/O control. Challenges addressed include overcoming pin limits, increasing bandwidth across limited channels, abstracting the structure of random access memories, instantiating and interfacing with Xilinx COREgen modules, designing safe mechanisms to transfer signals across clock domains, combining deadlock-free networks in a hierarchical fashion while preserving deadlock-free properties, using Xilinx synthesis flow tools to load custom logic onto FPGAs, and adjusting hardware platforms for a specific purpose.
+				</div>
+				<div class="project-information">
+					<ul>
+						<li><span class="dark-text">Date: </span> September 2013 - June 2014</li>
+						<li><span class="dark-text">Fields: </span> Computer Architecture, Memory Heirarchy, Multi-Node Systems, Many-Core Processors, Network Deadlock, Asynchronus Buffer Design, System Design</li>
+						<li><span class="dark-text">Tools: </span> Verilog, Xilinx CORE-gen, Xilinx Synthesis Pipeline (X-flow), simv logic simulation</li>
+						<li><span class="dark-text">Group Members: </span> David Wentzlaff, Yanqi Zhou, Tri Nguyen, Mike McKeown, Yaosheng Fu, Jonathan Balkind</li>
+						<li><span class="dark-text">Documentation: </span><a href="./doc/thesis.pdf" target="_blank">Report (PDF)</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END OF SINGLE PROJECT -->
+	
+</div>
